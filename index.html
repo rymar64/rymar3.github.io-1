@@ -12,7 +12,11 @@
    </style>
 <!-- ------------------------ -->
 <!--------- 02 Годинник -------->	
-
+<script src ="js/clock1.js"></script>
+<script>
+   window.onload = function(){
+   setInterval(clockPainting, 1000);}
+</script>
 <!-- ------------------------ -->
   </HEAD>
   <BODY background="images/bg.jpg">
@@ -34,7 +38,7 @@
 		<tr>
 		    <td width="30%" valign="top">
 				<!--  02  Годинник -->
-			
+				<center><canvas id="canvas" height="120" width="120"></canvas></center>
 			    <!-- ------------- -->
 				<!-------  05  Меню Новини ----------->
 				<font size="5" color="navy"><h2>Наші роботи</h2></font>
